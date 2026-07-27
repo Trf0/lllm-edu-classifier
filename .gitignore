@@ -1,0 +1,15 @@
+# Credenciais - NUNCA versionar
+*.json
+!*.example.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dados / planilhas locais
+*.xlsx
+!exemplos/*.xlsx
+*.csv
